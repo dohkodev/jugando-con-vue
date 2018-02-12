@@ -1,11 +1,6 @@
 Vue.component('videoclub',{
     props: ['image','title'],
-    template: `
-        <div>
-            <img width="100" :src="image" :alt="title" />
-            <h2>{{title}}</h2>
-        </div>
-    `
+    template: ``
 })
 
 const app = new Vue({
